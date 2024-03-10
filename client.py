@@ -6,7 +6,7 @@ import os
 import shutil
 
 
-server_address = ('127.0.0.1', 5555) # укажите адрес и порт сервера
+server_address = ('0.0.0.0', 12345) # укажите адрес и порт сервера
 processes = psutil.process_iter()
 connected = False
 while not connected:
